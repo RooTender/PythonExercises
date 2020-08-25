@@ -11,6 +11,6 @@ print(myArray)
 print(shallowCopy)
 
 deepCopy = copy.deepcopy(myArray)
-myArray[3][0] = 4 # shallow copy concerns only next dimensions
+myArray[3][0] = 4
 print(myArray)
 print(deepCopy)
